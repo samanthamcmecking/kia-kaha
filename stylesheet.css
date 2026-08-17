@@ -1,4 +1,87 @@
 /*
-    Author: Your name
+    Author: Samantha McMecking
     Creation date: 17 August 2026
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+/* ==== Typography ============ */
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    background-color: #feb753;
+}
+
+h1,h2,h3 {
+    font-family: "Exo 2" , sans-serif;
+}
+
+/* ==== Page Layout ============ */
+
+header {
+    background-color: #cd3046;
+    text-align: center;
+    padding: 3rem 0;
+    color: #fff;
+    margin-bottom: 1.4rem;
+
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2.6rem;
+    border-left: solid 2px #fff;
+    border-right: solid 2px #fff;
+}
+}
+
+footer {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* ==== Navigation Menu ============ */
+
+nav {
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #feb753;
+    padding: .5rem 1rem .5rem 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #049021;
+}
+
+/* ==== Main Content Area ============ */
+
+main img {
+    width: 100%;
+}
+
+.goals {
+    margin-bottom: 2.4rem;
+}
+
+.goals-list {
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+}
