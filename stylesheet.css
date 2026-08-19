@@ -41,7 +41,6 @@ main {
     border-left: solid 2px #fff;
     border-right: solid 2px #fff;
 }
-}
 
 footer {
     font-size: 1rem;
@@ -84,4 +83,104 @@ main img {
 .goals-list {
     margin-left: 3rem;
     margin-bottom: 0.5rem;
+}
+
+/* ==== Ako Page ============ */
+
+.celebrate h1, .celebrate h3 {
+    font-family: "Roboto Slab", serif;
+}
+
+.celebrate h1 {
+    font-size: 1.7rem;
+    margin: 0.5rem 0;
+    color: #f06941;
+}
+
+.celebrate h3 {
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+    color: #f06941;
+}
+
+.ideas-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1rem;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.ideas-grid a {
+    color: #fff;
+    text-decoration: none;
+    padding-top: 7rem;
+    width: 18rem;
+    height: 18rem;
+    text-align: center;
+    place-self: center;
+    border-radius: 50%;
+
+}
+
+.ideas-grid a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+    color: beige;
+}
+
+.tahi {
+    background: url(images/bg-rauemi.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.rua {
+    background: url(images/Card-game-tamariki.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.toru {
+    background: url(images/haka.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.wha {
+    background: url(images/pronunciation-guide.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.rima {
+    background: url(images/Sign-ups.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.ono {
+    background: url(images/Te-Wiki.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+/* ==== Ideas list ============ */
+
+.ideas-block {
+    background-color: #b3e6ff;
+    padding: 2rem;
+    margin: 2rem 0;
+
+}
+
+.ideas-block ul {
+    list-style-type: none;
+}
+
+.ideas-block a {
+    color: tomato;
+
+}
+
+.ideas-block a:hover {
+    color:#cd3046;
+}
+
+.backlink {
+    text-decoration: none;
 }
